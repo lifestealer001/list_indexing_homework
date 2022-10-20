@@ -6,4 +6,9 @@
     Returns:
         list: return answer
 */
-void main() {}
+bool func(List<bool> list1){
+    return list1;
+}
+void main() {
+    print(func([0,1,0]));
+}

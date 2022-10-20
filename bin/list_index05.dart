@@ -7,4 +7,9 @@
     Returns:
         list: return answer
 */
-void main() {}
+int func(List list1,int i){
+    return list1[i];
+}
+void main() {
+    print(func([5,6,4],0));
+}
