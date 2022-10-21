@@ -7,8 +7,8 @@
         list: return answer
 */
 List func(List list1){
-    return [list1[2]];
+    return [list1[list1.length-1]];
 }
 void main() {
-    print(func([5,6,4]));
+    print(func([5,6,4,9]));
 }
