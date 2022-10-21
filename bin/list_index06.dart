@@ -6,7 +6,8 @@
     Returns:
         list: return answer
 */
-bool func(List<bool> list1){
+bool func(List list1){
+    bool a = true;
     return list1;
 }
 void main() {

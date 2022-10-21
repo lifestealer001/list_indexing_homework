@@ -6,9 +6,11 @@
     Returns:
         list: return answer
 */
-int func(List list1){
-    return list1[0];
+List func(List list1){
+    List x=[1];
+    x[0]=list1[0];
+    return x;
 }
 void main() {
-    print(func([5,6,4]));
+    print(func(['x',6,4]));
 }
