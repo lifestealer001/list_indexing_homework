@@ -7,10 +7,8 @@
         list: return answer
 */
 List func(List list1){
-    List x=[1];
-    x[0]=list1[0];
-    return x;
+    return [list1[0]];
 }
 void main() {
-    print(func(['x',6,4]));
+    print(func([5,6,4]));
 }

@@ -6,10 +6,16 @@
     Returns:
         list: return answer
 */
-bool func(List list1){
-    bool a = true;
-    return list1;
+List func(List list1){
+    List x = list1;
+    int i = 0;
+    while(i<list1.length){
+    if(x[i]==1){
+    x[i]=true;
+    }i+=1;}
+    
+    return x;
 }
 void main() {
-    print(func([0,1,0]));
+    print(func([0,1,0,0,1,0,1,0]));
 }
